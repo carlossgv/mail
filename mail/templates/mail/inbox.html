@@ -14,6 +14,26 @@
     <div id="emails-view">
     </div>
 
+    <div id="email-details">
+        <div style="border: 3px solid black; margin-bottom: 10px; padding: 5px; background-color:aliceblue;">
+            <h3 id="emailSubject" style="font-weight: bold;"></h3>
+            <h4 id="emailSender"></h4>
+            <div class="d-flex justify-content-between">
+                <h6 id="emailRecipients"></h6>
+                <h6 id="emailTimestamp"></h6>
+            </div>
+        </div>
+        <p id="emailBody"></p>
+        <div id="inbox-details">
+            <button id="replyButton">Reply</button>
+            <button id="unreadButton">Mark as Unread</button>
+            <button id="archiveButton">Archive Message</button>
+        </div>
+        <div id="archived-details">
+            <button id="unarchiveButton">Unarchive Message</button>
+        </div>
+    </div>
+
     <div id="compose-view">
         <h3>New Email</h3>
         <form id="compose-form">
